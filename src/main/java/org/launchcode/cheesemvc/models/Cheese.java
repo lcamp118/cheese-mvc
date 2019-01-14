@@ -52,5 +52,13 @@ public class Cheese {
     public void setCheeseId(int cheeseId) {
         this.cheeseId = cheeseId;
     }
+
+    public CheeseType getType() {
+        return type;
+    }
+
+    public void setType(CheeseType type) {
+        this.type = type;
+    }
 }
 
